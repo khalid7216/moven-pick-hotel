@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui,   'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 10px 0;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-bar ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  :hover.nav-bar ul li{
+text-decoration: underline;
+color: #000000;
+transition: 2.5s;
+  }
+  
+  .back-img {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://m.ahstatic.com/is/image/accorhotels/6255-01:8by10?wid=412&hei=515&dpr=on,2.625&qlt=75&resMode=sharp2&op_usm=0.5,0.3,2,0&iccEmbed=true&icc=sRGB');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #back-text {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="button"] {
+    background-color:#947806;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(214, 209, 153)
+  }
+  .list-sub-item{
+cursor: pointer; 
+ 
+
+  }
+  
+   
+   :hover.list-sub-item,ul,li{
+    text-decoration: underline;
+    color: #000000;
+    transition: 2s;
+    
+   }
+  
+  .list-sub-item,ul,li{
+    display: inline-block;
+    padding: 10px;
+   
+  }
+  .des{
+    padding: 40px;
+  }
+  .more-text {
+    display: none;
+  }
+
+  #read-toggle {
+    display: none;
+  }
+
+  #read-toggle:checked ~ .more-text {
+    display: inline;
+  }
+
+  .read-label {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .intro{
+    cursor: pointer;
+
+  }
+  #intro{
+    padding: 2rem;
+  }
+  .buttonSustainability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttonSustainability button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .buttonSustainability button:hover {
+    text-decoration: underline;
+    color: #000000;
+    background-color: #e0e0e0;
+  }
+
+  .Rooms {
+    text-align: center;
+    padding: 40px 0 10px;
+  }
+  
+  #room-text {
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .room-list {
+    text-align: center;
+  }
+  
+  .room-list ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .room-list li {
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .room {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .room img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .room h4 {
+    color: #b08d33;
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .room p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  #checked{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #bd9739;
+  }
