@@ -462,11 +462,11 @@ cursor: pointer;
   background-color:#F5F2ED;
   padding: 30px;
   gap: 40px;
-  flex-wrap: wrap; /* Optional if you want it responsive */
+  flex-wrap: wrap; 
 }
 
 .footer-column {
-  flex: 1 1 200px; /* grows but has a min width */
+  flex: 1 1 200px; 
 }
 
 .footer-column h3 {
@@ -504,21 +504,19 @@ cursor: pointer;
 ul li{
   text-align: center;
 }
-.last{
+.last {
   padding: 20px;
   text-align: center;
     background-color:#F5F2ED;
 }
-/* Base breakpoints for responsiveness */
 
-/* Extra large screens (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .main {
     font-size: 16px;
   }
 }
 
-/* Large devices (desktops, 992px to 1199px) */
+
 @media (max-width: 1199px) {
   .main {
     flex-direction: column;
@@ -534,7 +532,7 @@ ul li{
   }
 }
 
-/* Medium devices (tablets, 768px to 991px) */
+
 @media (max-width: 991px) {
   .nav-bar ul {
     flex-direction: column;
@@ -557,7 +555,6 @@ ul li{
   }
 }
 
-/* Small devices (phones, 576px to 767px) */
 @media (max-width: 767px) {
   #back-text {
     font-size: 28px;
@@ -605,7 +602,7 @@ ul li{
   }
 }
 
-/* Extra small devices (under 576px) */
+
 @media (max-width: 575px) {
   .main {
     padding: 5px;
